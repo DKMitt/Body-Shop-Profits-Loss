@@ -135,7 +135,7 @@ database.ref().on("child_added", function(childSnapshot, prevChildKey) {
 
   // Add each labor data into the table
   $("#employee-table").append("<tr><td>" + projNumb + "</td><td>" + projMetalLabor + "</td><td>" + projFrameLabor + "</td><td>" +
-  projMechLabor + "</td><td>" + projPaintLabor + "</td><td>" + projPartSales + "</td><td>"+ projPartsCost + "</td><td>" + projPaintAndMaterial + "</td><td>" + projSublet + "</td><td>" + projTowAndStorage + "</td></tr>" + projPaintPay);
+  projMechLabor + "</td><td>" + projPaintLabor + "</td><td>" + projPartSales + "</td><td>"+ projPartsCost + "</td><td>" + projPaintAndMaterial + "</td><td>" + projSublet + "</td><td>" projTowAndStorage "</td></td>" + " </td><td>" projTowAndStorage "</td></tr>");
   
 
   // Add each sum labor data into the table
